@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Skill(run)",
+      "Bash(adb devices *)",
+      "Read(//Users/admin/Library/Android/sdk/emulator/**)",
+      "Bash(~/Library/Android/sdk/emulator/emulator -list-avds)",
+      "Read(//Users/admin/**)",
+      "Bash(sudo rm *)",
+      "Bash(gh auth *)",
+      "Bash(/opt/homebrew/bin/brew --version)",
+      "Bash(/usr/local/bin/brew --version)"
+    ]
+  }
+}
